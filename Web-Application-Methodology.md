@@ -40,18 +40,18 @@
 ### Session Management
 
 + Testing for Session Management Schema - Bypassing Session Management Schema, Weak Session Token
-Unencrypted __VIEWSTATE Parameter
-Session Hijacking
-Unsigned __VIEWSTATE Parameter
-Client-Side (JavaScript) Cookie References
-Testing for Cookies attributes - Cookies are set not ‘HTTP Only’, ‘Secure’, and no time validity
-Testing for Session Fixation - Session Fixation
-Idle Session timeout too long
-Concurrent Login with Single Account
-Session Replay
-Improper Session Termination
-Testing for Exposed Session Variables - Exposed sensitive session variables
-Testing for CSRF - CSRF
++ Unencrypted __VIEWSTATE Parameter
++ Session Hijacking
++ Unsigned __VIEWSTATE Parameter
++ Client-Side (JavaScript) Cookie References
++ Testing for Cookies attributes - Cookies are set not ‘HTTP Only’, ‘Secure’, and no time validity
++ Testing for Session Fixation - Session Fixation
++ Idle Session timeout too long
++ Concurrent Login with Single Account
++ Session Replay
++ Improper Session Termination
++ Testing for Exposed Session Variables - Exposed sensitive session variables
++ Testing for CSRF - CSRF
 
 ### Authorization Testing
 + Testing for Path Traversal - Path Traversal
