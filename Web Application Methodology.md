@@ -1,6 +1,4 @@
-# Penetration Testing Methodologies
-
-## Web Application Security Testing Methodology/Checklist
+# Web Application Security Testing Methodology/Checklist
 
 ### Information Gathering
 + Spiders, Robots and Crawlers
