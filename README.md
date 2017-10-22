@@ -2,8 +2,5 @@
 
 ## Web Application Security Testing Methodology/Checklist
 
-Start from here
+### Information Gathering
 
-```
-code
-```
