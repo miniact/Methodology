@@ -37,6 +37,96 @@
 + Testing for Logout and Browser Cache Management - - Logout function not properly implemented, browser cache weakness
 + Testing for CAPTCHA - Weak Captcha implementation
 
+### Session Management
+
++ Testing for Session Management Schema - Bypassing Session Management Schema, Weak Session Token
+Unencrypted __VIEWSTATE Parameter
+Session Hijacking
+Unsigned __VIEWSTATE Parameter
+Client-Side (JavaScript) Cookie References
+Testing for Cookies attributes - Cookies are set not ‘HTTP Only’, ‘Secure’, and no time validity
+Testing for Session Fixation - Session Fixation
+Idle Session timeout too long
+Concurrent Login with Single Account
+Session Replay
+Improper Session Termination
+Testing for Exposed Session Variables - Exposed sensitive session variables
+Testing for CSRF - CSRF
+
+### Authorization Testing
++ Testing for Path Traversal - Path Traversal
++ Testing for bypassing authorization schema - Bypassing authorization schema
++ Testing for Privilege Escalation - Privilege Escalation
+
+### Data Validation Testing
++ Testing for Reflected Cross Site Scripting - Reflected XSS
++ Testing for DOM based Cross Site Scripting - DOM XSS
++ Testing for Stored Cross Site Scripting - Stored XSS
++ Frame Injection
++ Cross Site Tracing (XST)
++ Link Injection
++ Cross site framing
++ Testing for Cross Site Flashing - Cross Site Flashing
++ SQL Injection - SQL Injection
++ LDAP Injection - LDAP Injection
++ ORM Injection - ORM Injection
++ Content Type Incorrectly Stated
++ UI Redress (Clickjacking)
++ XML Injection - XML Injection
++ XML eXternal Entity (XXE) attacks
++ SSI Injection - SSI Injection
++ XPath Injection - XPath Injection
++ IMAP/SMTP Injection - IMAP/SMTP Injection
++ Code Injection - Code Injection
++ OS Commanding - OS Commanding
++ Buffer overflow - Buffer overflow
++ Incubated vulnerability - Incubated vulnerability
++ Potential File Upload
++ Unvalidated Redirects and Forwards
++ Cross Origin Resource Sharing (CORS)
++ Testing for HTTP Smuglling
+
+### Denial  of Service Testing
++ Testing for DoS Buffer Overflows - Buffer Overflows
++ User Specified Object Allocation - User Specified Object Allocation
++ Unvalidate Redirects and forwards
++ Denial of Service by XML Bomb
++ User Input as a Loop Counter - User Input as a Loop Counter
++ Writing User Provided Data to Disk - Writing User Provided Data to Disk
++ Failure to Release Resources - Failure to Release Resources
++ Storing too Much Data in Session - Storing too Much Data in Session
+
+### Ajax Testing
++ AJAX Testing - AJAX weakness
+
+### Weak password policy
++ Password policy Test
+
+### SSL Testing
++ SSL Certificate Domain Name Mismatch
++ Weak SSL Ciphers supported or SSL Not Enforced
++ SSL compression supported
++ HTTP Strict Transport Security (HSTS)
++ Web Server accepts SSL 2.0 connections
++ SSL Renegotiation Enabled
++ SSL Certificate Not Signed by Trusted CA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
